@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SSOP-8-Symbol)(type Legacy)(uri ${KIPRJMOD}/SSOP-8-Symbol.lib)(options "")(descr ""))
+)
