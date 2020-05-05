@@ -1,0 +1,138 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L6207Q:L6207Q U1
+U 1 1 5EB0BD35
+P 3750 2800
+F 0 "U1" H 3750 3625 50  0000 C CNN
+F 1 "L6207Q" H 3750 3534 50  0000 C CNN
+F 2 "L6207Q:QFN50P700X700X60-49N" H 3450 3150 50  0001 C CNN
+F 3 "" H 3450 3150 50  0001 C CNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x17_Female J1
+U 1 1 5EB0D015
+P 2800 2900
+F 0 "J1" H 2800 2000 50  0000 C CNN
+F 1 "Conn_01x17_Female" V 2850 2450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 2800 2900 50  0001 C CNN
+F 3 "~" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x17_Female J2
+U 1 1 5EB1321A
+P 4700 2900
+F 0 "J2" H 4650 3800 50  0000 L CNN
+F 1 "Conn_01x17_Female" V 4750 2950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 4700 2900 50  0001 C CNN
+F 3 "~" H 4700 2900 50  0001 C CNN
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3700 3150 3700
+Wire Wire Line
+	3150 3700 3150 3800
+Wire Wire Line
+	3150 3800 3750 3800
+Wire Wire Line
+	4350 3800 4350 3700
+Wire Wire Line
+	4350 3700 4500 3700
+Wire Wire Line
+	3750 3750 3750 3800
+Connection ~ 3750 3800
+Wire Wire Line
+	3750 3800 4350 3800
+Wire Wire Line
+	3000 3600 3150 3600
+Wire Wire Line
+	3000 3500 3150 3500
+Wire Wire Line
+	3000 3400 3150 3400
+Wire Wire Line
+	3000 3300 3150 3300
+Wire Wire Line
+	3000 3200 3150 3200
+Wire Wire Line
+	3000 3100 3150 3100
+Wire Wire Line
+	3000 3000 3150 3000
+Wire Wire Line
+	3000 2900 3150 2900
+Wire Wire Line
+	3000 2800 3150 2800
+Wire Wire Line
+	3000 2700 3150 2700
+Wire Wire Line
+	3000 2600 3150 2600
+Wire Wire Line
+	3000 2500 3150 2500
+Wire Wire Line
+	3000 2400 3150 2400
+Wire Wire Line
+	3000 2300 3150 2300
+Wire Wire Line
+	3000 2200 3150 2200
+Wire Wire Line
+	4350 2200 4500 2200
+Wire Wire Line
+	4350 2300 4500 2300
+Wire Wire Line
+	4350 2400 4500 2400
+Wire Wire Line
+	4350 2500 4500 2500
+Wire Wire Line
+	4350 2600 4500 2600
+Wire Wire Line
+	4350 2700 4500 2700
+Wire Wire Line
+	4350 2800 4500 2800
+Wire Wire Line
+	4350 2900 4500 2900
+Wire Wire Line
+	4350 3000 4500 3000
+Wire Wire Line
+	4350 3100 4500 3100
+Wire Wire Line
+	4350 3200 4500 3200
+Wire Wire Line
+	4350 3300 4500 3300
+Wire Wire Line
+	4350 3400 4500 3400
+Wire Wire Line
+	4350 3500 4500 3500
+Wire Wire Line
+	4350 3600 4500 3600
+Text GLabel 3750 3800 3    50   Input ~ 0
+EPAD
+Text GLabel 3050 2050 1    50   Input ~ 0
+EPAD
+Text GLabel 4450 2050 1    50   Input ~ 0
+EPAD
+Wire Wire Line
+	4450 2050 4450 2100
+Wire Wire Line
+	4450 2100 4500 2100
+Wire Wire Line
+	3000 2100 3050 2100
+Wire Wire Line
+	3050 2100 3050 2050
+$EndSCHEMATC
