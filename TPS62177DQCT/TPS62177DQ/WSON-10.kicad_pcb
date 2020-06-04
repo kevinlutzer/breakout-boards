@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
-    (tracks 33)
+    (drawings 9)
+    (tracks 34)
     (zones 0)
     (modules 3)
     (nets 12)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.84)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.84)
     (trace_clearance 0.2)
@@ -286,6 +286,9 @@
     )
   )
 
+  (gr_text "Thermal relief between the top and bottom copper layers is specifically \nfor the TPS62177DQ Buck Regulator. However this board could be used\nfor other WSON-10 or small width DFN-10 type packages using a reflow\nsoldering method. " (at 67.2846 72.6948) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 74.0664 63.8048) (end 74.0664 66.3448) (layer Edge.Cuts) (width 0.05) (tstamp 5ED80964))
   (gr_line (start 60.2488 66.3448) (end 74.0664 66.3448) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 60.2488 63.8048) (end 60.2488 66.3448) (layer Edge.Cuts) (width 0.05))
@@ -305,6 +308,7 @@
   (segment (start 71.035519 51.816) (end 72.2376 51.816) (width 0.84) (layer F.Cu) (net 1))
   (segment (start 67.1576 56.896) (end 67.1576 54.856) (width 0.84) (layer F.Cu) (net 1))
   (segment (start 67.1576 54.856) (end 70.1976 51.816) (width 0.84) (layer F.Cu) (net 1))
+  (segment (start 67.1576 57.846) (end 67.1576 59.3598) (width 0.84) (layer F.Cu) (net 1))
   (segment (start 70.6976 55.896) (end 72.2376 54.356) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 68.1076 55.896) (end 70.6976 55.896) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 71.7376 56.396) (end 72.2376 56.896) (width 0.25) (layer F.Cu) (net 3))
