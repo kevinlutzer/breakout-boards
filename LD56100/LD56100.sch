@@ -24,17 +24,6 @@ F 3 "https://www.st.com/resource/en/datasheet/ld56100.pdf" H 5200 3500 100 0001 
 	1    5250 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5F1CE35D
-P 6550 3150
-F 0 "J1" H 6658 3431 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 6658 3340 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6550 3150 50  0001 C CNN
-F 3 "~" H 6550 3150 50  0001 C CNN
-	1    6550 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 3300 4700 3300
 Wire Wire Line
@@ -75,17 +64,6 @@ Wire Wire Line
 	4900 4150 5300 4150
 Wire Wire Line
 	5300 4150 5300 3900
-$Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5F1D345D
-P 6550 3850
-F 0 "J2" H 6658 4131 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 6658 4040 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6550 3850 50  0001 C CNN
-F 3 "~" H 6550 3850 50  0001 C CNN
-	1    6550 3850
-	1    0    0    -1  
-$EndComp
 Text GLabel 6850 3050 2    50   Input ~ 0
 VOUT
 Text GLabel 6850 3150 2    50   Input ~ 0
@@ -118,4 +96,48 @@ Wire Wire Line
 	6750 3750 6850 3750
 Wire Wire Line
 	6750 4050 6850 4050
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5F2B934A
+P 7800 4900
+F 0 "J?" H 7908 5281 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 7908 5190 50  0000 C CNN
+F 2 "" H 7800 4900 50  0001 C CNN
+F 3 "~" H 7800 4900 50  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5F1CE35D
+P 6550 3150
+F 0 "J1" H 6658 3431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6658 3340 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6550 3150 50  0001 C CNN
+F 3 "~" H 6550 3150 50  0001 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5F2B8C85
+P 6400 4700
+F 0 "J?" H 6508 5081 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 6508 4990 50  0000 C CNN
+F 2 "" H 6400 4700 50  0001 C CNN
+F 3 "~" H 6400 4700 50  0001 C CNN
+	1    6400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5F1D345D
+P 6550 3850
+F 0 "J2" H 6658 4131 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6658 4040 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6550 3850 50  0001 C CNN
+F 3 "~" H 6550 3850 50  0001 C CNN
+	1    6550 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
