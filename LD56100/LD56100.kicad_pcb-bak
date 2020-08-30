@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 19)
     (zones 0)
     (modules 3)
@@ -245,13 +245,16 @@
     )
   )
 
+  (gr_text VIN (at 147.447 85.09) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text EN (at 147.574 87.63) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text GND (at 147.066 90.17) (layer F.SilkS)
+  (gr_text GND (at 146.939 90.17) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text PAD (at 147.193 92.71) (layer F.SilkS)
+  (gr_text PAD (at 147.066 92.71) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text PAD (at 142.367 92.583) (layer F.SilkS)
