@@ -265,7 +265,7 @@
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (gr_text VDDIO (at 182.753 110.617) (layer F.SilkS) (tstamp 5F4C3E6F)
-    (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (effects (font (size 0.5 0.5) (thickness 0.09)))
   )
   (gr_text GND (at 182.753 108.077) (layer F.SilkS) (tstamp 5F4C3E6A)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
