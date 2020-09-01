@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6-0-10_14)"
     },
-    "CreationDate":  "2020-08-30T19:23:18-06:00"
+    "CreationDate":  "2020-08-30T19:17:27-06:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "TSL25911FN",
-      "GUID": "54534c32-3539-4313-9146-4e2e6b696361",
+      "Name": "BME280",
+      "GUID": "424d4532-3830-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size":
     {
       "X": 12.750,
-      "Y": 7.670
+      "Y": 10.210
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "TSL25911FN-F_Cu.gbr",
+      "Path":  "BME280-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-B_Cu.gbr",
+      "Path":  "BME280-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-F_Paste.gbr",
+      "Path":  "BME280-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-B_Paste.gbr",
+      "Path":  "BME280-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-F_SilkS.gbr",
+      "Path":  "BME280-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-B_SilkS.gbr",
+      "Path":  "BME280-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "TSL25911FN-F_Mask.gbr",
+      "Path":  "BME280-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "TSL25911FN-B_Mask.gbr",
+      "Path":  "BME280-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "TSL25911FN-Edge_Cuts.gbr",
+      "Path":  "BME280-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
