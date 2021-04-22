@@ -1,0 +1,98 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 606F3B5B
+P 2650 2600
+F 0 "J?" H 2700 3017 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2700 2926 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2650 2600 50  0001 C CNN
+F 3 "~" H 2650 2600 50  0001 C CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 606F3FDD
+P 2650 1550
+F 0 "J?" H 2700 1967 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2700 1876 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical_SMD" H 2650 1550 50  0001 C CNN
+F 3 "~" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 2800
+Wire Wire Line
+	2400 2800 2450 2800
+Wire Wire Line
+	2450 1650 2350 1650
+Wire Wire Line
+	2350 1650 2350 2700
+Wire Wire Line
+	2350 2700 2450 2700
+Wire Wire Line
+	2450 1550 2300 1550
+Wire Wire Line
+	2300 1550 2300 2600
+Wire Wire Line
+	2300 2600 2450 2600
+Wire Wire Line
+	2450 1450 2250 1450
+Wire Wire Line
+	2250 1450 2250 2500
+Wire Wire Line
+	2250 2500 2450 2500
+Wire Wire Line
+	2450 1350 2200 1350
+Wire Wire Line
+	2200 1350 2200 2400
+Wire Wire Line
+	2200 2400 2450 2400
+Wire Wire Line
+	2950 1750 3000 1750
+Wire Wire Line
+	3000 1750 3000 2800
+Wire Wire Line
+	3000 2800 2950 2800
+Wire Wire Line
+	2950 2700 3050 2700
+Wire Wire Line
+	3050 2700 3050 1650
+Wire Wire Line
+	3050 1650 2950 1650
+Wire Wire Line
+	2950 1550 3100 1550
+Wire Wire Line
+	3100 1550 3100 2600
+Wire Wire Line
+	3100 2600 2950 2600
+Wire Wire Line
+	2950 2500 3150 2500
+Wire Wire Line
+	3150 2500 3150 1450
+Wire Wire Line
+	3150 1450 2950 1450
+Wire Wire Line
+	2950 1350 3200 1350
+Wire Wire Line
+	3200 1350 3200 2400
+Wire Wire Line
+	3200 2400 2950 2400
+$EndSCHEMATC
