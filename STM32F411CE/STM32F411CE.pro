@@ -1,4 +1,4 @@
-update=Tue 30 Mar 2021 08:01:03 PM
+update=Wed 21 Apr 2021 11:34:38 PM
 version=1
 last_client=kicad
 [general]
@@ -25,27 +25,28 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=STM32F411CE.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2
-MinViaDiameter=0.4
+MinTrackWidth=0.01
+MinViaDiameter=0.01
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-dPairWidth2=0.5443
-dPairGap2=0.2
+dPairWidth2=0.261112
+dPairGap2=0.2032
 dPairViaGap2=0
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -240,7 +241,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.1
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
