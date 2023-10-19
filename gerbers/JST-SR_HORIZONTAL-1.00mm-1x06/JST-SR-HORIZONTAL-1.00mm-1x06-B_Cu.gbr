@@ -1,0 +1,42 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*%
+%TF.CreationDate,2023-10-18T21:09:21-04:00*%
+%TF.ProjectId,JST-SR-HORIZONTAL-1.00mm-1x06,4a53542d-5352-42d4-984f-52495a4f4e54,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-18 21:09:21*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.700000X1.700000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J2,1,Pin_1*%
+%TO.N,/5V*%
+X-247125000Y-118800000D03*
+D11*
+%TO.P,J2,2,Pin_2*%
+%TO.N,/GND*%
+X-247125000Y-116260000D03*
+%TO.P,J2,3,Pin_3*%
+%TO.N,/EN*%
+X-247125000Y-113720000D03*
+%TO.P,J2,4,Pin_4*%
+%TO.N,/BOOT*%
+X-247125000Y-111180000D03*
+%TO.P,J2,5,Pin_5*%
+%TO.N,/RX*%
+X-247125000Y-108640000D03*
+%TO.P,J2,6,Pin_6*%
+%TO.N,/TX*%
+X-247125000Y-106100000D03*
+%TD*%
+M02*
