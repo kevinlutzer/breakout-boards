@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "E22-900M30S")(type "KiCad")(uri "${KIPRJMOD}/locallib/E22-900M30S.kicad_sym")(options "")(descr ""))
+)
